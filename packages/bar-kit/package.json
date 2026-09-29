@@ -5,16 +5,41 @@
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "bin": { "dcl-bar-kit-copy-assets": "bin/copy-assets.mjs" },
-  "files": ["dist", "assets", "bin", "tools", "README.md"],
+  "bin": {
+    "dcl-bar-kit-copy-assets": "bin/copy-assets.mjs"
+  },
+  "files": [
+    "dist",
+    "assets",
+    "bin",
+    "tools",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsc -p ."
   },
-  "keywords": ["decentraland", "dcl", "sdk7", "bar", "bartender", "drinks", "emotes"],
+  "keywords": [
+    "decentraland",
+    "dcl",
+    "sdk7",
+    "bar",
+    "bartender",
+    "drinks",
+    "emotes"
+  ],
   "dependencies": {
     "dcl-sittables": "^0.1.0"
   },
   "peerDependencies": {
     "@dcl/sdk": ">=7.20.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MetaverseUnknower/dcl-lounge-kit.git",
+    "directory": "packages/bar-kit"
+  },
+  "homepage": "https://github.com/MetaverseUnknower/dcl-lounge-kit/tree/main/packages/bar-kit#readme",
+  "bugs": {
+    "url": "https://github.com/MetaverseUnknower/dcl-lounge-kit/issues"
   }
 }

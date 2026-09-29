@@ -5,13 +5,36 @@
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "bin": { "dcl-sittables-copy-assets": "bin/copy-assets.mjs" },
-  "files": ["dist", "assets", "bin", "README.md"],
+  "bin": {
+    "dcl-sittables-copy-assets": "bin/copy-assets.mjs"
+  },
+  "files": [
+    "dist",
+    "assets",
+    "bin",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsc -p ."
   },
-  "keywords": ["decentraland", "dcl", "sdk7", "sit", "seats", "furniture"],
+  "keywords": [
+    "decentraland",
+    "dcl",
+    "sdk7",
+    "sit",
+    "seats",
+    "furniture"
+  ],
   "peerDependencies": {
     "@dcl/sdk": ">=7.20.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MetaverseUnknower/dcl-lounge-kit.git",
+    "directory": "packages/sittables"
+  },
+  "homepage": "https://github.com/MetaverseUnknower/dcl-lounge-kit/tree/main/packages/sittables#readme",
+  "bugs": {
+    "url": "https://github.com/MetaverseUnknower/dcl-lounge-kit/issues"
   }
 }

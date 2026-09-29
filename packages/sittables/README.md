@@ -10,6 +10,9 @@ Click-to-sit seats and sittable furniture for [Decentraland](https://decentralan
 - **Hooks** for other code: know when someone sits or stands, and take over sitting down (dcl-bar-kit uses this to
   sit you straight into a drinking emote).
 
+
+**Documentation:** [Getting started](https://github.com/MetaverseUnknower/dcl-lounge-kit/blob/main/docs/getting-started.md) · [Full reference](https://github.com/MetaverseUnknower/dcl-lounge-kit/blob/main/docs/sittables-reference.md) · [Your own furniture](https://github.com/MetaverseUnknower/dcl-lounge-kit/blob/main/docs/custom-furniture.md) · [How it works](https://github.com/MetaverseUnknower/dcl-lounge-kit/blob/main/docs/how-it-works.md) · [Troubleshooting](https://github.com/MetaverseUnknower/dcl-lounge-kit/blob/main/docs/troubleshooting.md)
+
 ## Install
 
 ```sh

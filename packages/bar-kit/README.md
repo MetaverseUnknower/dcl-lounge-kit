@@ -1,7 +1,7 @@
 # dcl-bar-kit
 
 Robot bartenders and drinks for [Decentraland](https://decentraland.org) SDK7 scenes, built on
-[dcl-sittables](../sittables).
+[dcl-sittables](https://www.npmjs.com/package/dcl-sittables).
 
 - **Bartenders** that hover behind your bar, follow you with their heads, blink, talk in a holographic readout, hand
   over a menu, and shake your drink before serving it. Two come ready: **BETA** (a mid-century bot with a bow tie, dry
@@ -15,6 +15,9 @@ Robot bartenders and drinks for [Decentraland](https://decentraland.org) SDK7 sc
 - **"Would you like another?"** Click a bartender with a drink in hand: another, or hand the glass back.
 - **A special.** Put something on the menu that isn't a drink (a password, say), and when it's ordered the bartender
   plays a little routine and calls your code: open a door, give an item.
+
+
+**Documentation:** [Getting started](https://github.com/MetaverseUnknower/dcl-lounge-kit/blob/main/docs/getting-started.md) · [Full reference](https://github.com/MetaverseUnknower/dcl-lounge-kit/blob/main/docs/bar-kit-reference.md) · [Your own drinks](https://github.com/MetaverseUnknower/dcl-lounge-kit/blob/main/docs/custom-drinks.md) · [Your own bartender](https://github.com/MetaverseUnknower/dcl-lounge-kit/blob/main/docs/custom-bartenders.md) · [How it works](https://github.com/MetaverseUnknower/dcl-lounge-kit/blob/main/docs/how-it-works.md) · [Troubleshooting](https://github.com/MetaverseUnknower/dcl-lounge-kit/blob/main/docs/troubleshooting.md)
 
 ## Install
 

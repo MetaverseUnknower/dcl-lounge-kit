@@ -14,7 +14,17 @@ npx dcl-sittables-copy-assets
 npx dcl-bar-kit-copy-assets
 ```
 
-See each package's README for how to use it.
+**[Getting started](docs/getting-started.md)** takes you from an empty folder to a working bar. Then:
+
+| Documentation | |
+|---|---|
+| [dcl-sittables reference](docs/sittables-reference.md) | Every function, type and model. |
+| [dcl-bar-kit reference](docs/bar-kit-reference.md) | Every function, type, bartender and drink. |
+| [Your own furniture](docs/custom-furniture.md) | Where a seat goes, and why; describing a model; tuning. |
+| [Your own drinks](docs/custom-drinks.md) | Glasses, building drinking emotes in Blender, specials. |
+| [Your own bartender](docs/custom-bartenders.md) | Words, routines, models. |
+| [How it works](docs/how-it-works.md) | What other players see, and how. |
+| [Troubleshooting](docs/troubleshooting.md) | |
 
 ## The example
 
@@ -27,6 +37,8 @@ npm run example        # builds the packages, copies their assets into the examp
 ```
 
 ## Working on the kit
+
+See [CONTRIBUTING.md](CONTRIBUTING.md). In short:
 
 ```sh
 npm install

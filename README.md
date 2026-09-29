@@ -1,7 +1,7 @@
 # dcl-lounge-kit
 
 Sittable furniture, and a bar with robot bartenders and drinks, for [Decentraland](https://decentraland.org) SDK7
-scenes. From [MetaPetal](https://metapetal.com)'s builds: The Silt, MetaPetal HQ and Galaxy Gardeners' Stellar Station.
+scenes. From MetaPetal's builds: The Silt, MetaPetal HQ and Galaxy Gardeners' Stellar Station.
 
 | Package | |
 |---|---|

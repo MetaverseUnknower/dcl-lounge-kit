@@ -1,0 +1,18 @@
+{
+  "ecs7": true,
+  "runtimeVersion": "7",
+  "display": {
+    "title": "dcl-lounge-kit example",
+    "description": "A little bar: sittable stools, couches and a bench (dcl-sittables), and BETA and BLIP serving drinks (dcl-bar-kit)"
+  },
+  "owner": "",
+  "contact": { "name": "", "email": "" },
+  "main": "bin/index.js",
+  "tags": [],
+  "scene": { "parcels": ["0,0", "0,1", "1,0", "1,1"], "base": "0,0" },
+  "spawnPoints": [
+    { "name": "spawn1", "default": true, "position": { "x": [14, 18], "y": [0, 0], "z": [4, 6] }, "cameraTarget": { "x": 16, "y": 1.5, "z": 20 } }
+  ],
+  "requiredPermissions": ["ALLOW_TO_MOVE_PLAYER_INSIDE_SCENE", "ALLOW_TO_TRIGGER_AVATAR_EMOTE"],
+  "featureToggles": {}
+}

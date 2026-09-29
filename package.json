@@ -1,0 +1,21 @@
+{
+  "name": "dcl-lounge-kit",
+  "private": true,
+  "description": "Sittable furniture and a bar with bartenders and drinks for Decentraland SDK7 scenes",
+  "workspaces": ["packages/sittables", "packages/bar-kit", "example"],
+  "scripts": {
+    "build": "npm run build -w dcl-sittables && npm run build -w dcl-bar-kit",
+    "example": "npm run build && npm run copy-assets -w dcl-lounge-example && npm run start -w dcl-lounge-example"
+  },
+  "devDependencies": {
+    "@dcl/js-runtime": "7.23.2",
+    "@dcl/sdk": "7.23.2",
+    "typescript": "^5.4.0"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "printWidth": 120,
+    "trailingComma": "none"
+  }
+}

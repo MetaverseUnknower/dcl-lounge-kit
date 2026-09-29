@@ -1,0 +1,9 @@
+node_modules/
+dist/
+bin/index.js
+bin/index.js.map
+*.crdt
+example/assets/dcl-sittables/
+example/assets/dcl-bar-kit/
+example/bin/
+.DS_Store

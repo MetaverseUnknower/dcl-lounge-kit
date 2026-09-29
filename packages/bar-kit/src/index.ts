@@ -1,0 +1,10 @@
+// dcl-bar-kit: bartenders and drinks, sitting with dcl-sittables. See README.md.
+export { setupBar, addBartender, closeBarMenu, barMenu } from './bartender'
+export type { Personality, Beat, BarOptions, BartenderPlacement } from './bartender'
+export { BETA, BLIP } from './personalities'
+export { mocktails, holdDrink, handBack, finishDrink, dropDrink, holdingDrink, heldDrink } from './drinks'
+export type { Drink, DrinksOptions } from './drinks'
+export { BarUi, BarMenu, AnotherDialog, DropNotice } from './ui'
+export { whisper } from './speechBubble'
+export type { Line, BubbleStyle } from './speechBubble'
+export { setBarAssetRoot, barAsset } from './assets'

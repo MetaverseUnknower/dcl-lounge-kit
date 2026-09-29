@@ -1,0 +1,20 @@
+{
+  "name": "dcl-bar-kit",
+  "version": "0.1.0",
+  "description": "Robot bartenders, a drinks menu, and drinks you hold, sip, sit with and spill, for Decentraland SDK7 scenes",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": { "dcl-bar-kit-copy-assets": "bin/copy-assets.mjs" },
+  "files": ["dist", "assets", "bin", "tools", "README.md"],
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "keywords": ["decentraland", "dcl", "sdk7", "bar", "bartender", "drinks", "emotes"],
+  "dependencies": {
+    "dcl-sittables": "^0.1.0"
+  },
+  "peerDependencies": {
+    "@dcl/sdk": ">=7.20.0"
+  }
+}

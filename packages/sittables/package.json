@@ -1,0 +1,17 @@
+{
+  "name": "dcl-sittables",
+  "version": "0.1.0",
+  "description": "Click-to-sit seats and sittable furniture (stools, couches, benches) for Decentraland SDK7 scenes",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": { "dcl-sittables-copy-assets": "bin/copy-assets.mjs" },
+  "files": ["dist", "assets", "bin", "README.md"],
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "keywords": ["decentraland", "dcl", "sdk7", "sit", "seats", "furniture"],
+  "peerDependencies": {
+    "@dcl/sdk": ">=7.20.0"
+  }
+}
